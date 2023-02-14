@@ -22,7 +22,7 @@ public class Worker : BackgroundService
                 builder
                     .ConfigureKestrel(options =>
                     {
-                        options.ListenAnyIP(0, listenOptions =>
+                        options.ListenAnyIP(53904, listenOptions =>
                         {
                             listenOptions.Protocols = HttpProtocols.Http2;
                         });

@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Grpc_Worker_Service": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
